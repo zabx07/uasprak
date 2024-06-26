@@ -1,6 +1,6 @@
 <template>
   <div class="task-container">
-    <h1>Daftar Tugas</h1>
+    <h1>Daftar Tugas:</h1>
     <div class="task-border">
       <ul class="task-list">
         <li v-for="(task, index) in tasks" :key="index">
